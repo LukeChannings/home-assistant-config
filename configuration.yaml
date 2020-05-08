@@ -1,5 +1,16 @@
 ---
-default_config:
+automation:
+config:
+frontend:
+history:
+logbook:
+map:
+mobile_app:
+person:
+sun:
+system_health:
+zeroconf:
+wake_on_lan:
 
 tts:
   - platform: google_translate
@@ -14,7 +25,7 @@ recorder:
       - updater
 
 mqtt:
-  broker: mosquitto.mosquitto.svc.local.cluster
+  broker: mosquitto.mosquitto.svc.cluster.local
   discovery: true
   protocol: "3.1.1"
   port: 1883
