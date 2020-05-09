@@ -15,6 +15,15 @@ wake_on_lan:
 tts:
   - platform: google_translate
 
+homeassistant:
+  name: Home
+  latitude: !env_var HASS_LATITUDE
+  longitude: !env_var HASS_LONGITUDE
+  elevation: 0
+  unit_system: metric
+  time_zone: Europe/London
+  customize: !include customize.yaml
+
 recorder:
   db_url: !env_var RECORDER_DB_URL
   auto_purge: false

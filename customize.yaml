@@ -1,0 +1,202 @@
+vacuum.kreacher:
+  friendly_name: Kreacher
+device_tracker.beckychssiphone:
+  friendly_name: Becky's iPhone
+device_tracker.nkems_ipad:
+  friendly_name: Nkem's iPad
+device_tracker.luke_wifi:
+  friendly_name: Luke's iPhone (WiFi)
+device_tracker.luke_s_iphone:
+  friendly_name: Luke's iPhone (GPS)
+device_tracker.chromecast_ultra:
+  friendly_name: Chromecast
+light.bedroom_light:
+  friendly_name: Bedroom light
+light.hallway_light:
+  friendly_name: Hallway light
+light.office_light:
+  friendly_name: Office light
+light.entrance_light:
+  friendly_name: Entrance light
+light.kitchen_light:
+  friendly_name: Kitchen light 1
+light.kitchen_spot4_light:
+  friendly_name: Kitchen light 2
+light.kitchen_spot3_light:
+  friendly_name: Kitchen light 3
+light.kitchen_spot2_light:
+  friendly_name: Kitchen light 4
+light.kitchen_spot1_light:
+  friendly_name: Kitchen light 5
+light.lounge1_light:
+  friendly_name: Lounge light 1
+light.lounge2_light:
+  friendly_name: Lounge light 2
+light.bathroom_spot1_light:
+  friendly_name: Bathroom light 1
+light.bathroom_spot2_light:
+  friendly_name: Bathroom light 2
+light.bathroom_spot3_light:
+  friendly_name: Bathroom light 3
+light.bathroom_spot4_light:
+  friendly_name: Bathroom light 4
+light.ensuite_spot1_light:
+  friendly_name: Ensuite light 1
+light.ensuite_spot2_light:
+  friendly_name: Ensuite light 2
+light.ensuite_spot3_light:
+  friendly_name: Ensuite light 3
+sensor.bedroom_control_action:
+  friendly_name: Bedroom control action
+sensor.bedroom_control_battery:
+  friendly_name: Bedroom control battery
+sensor.bedroom_control_linkquality:
+  friendly_name: Bedroom control link quality
+sensor.bathroom_control_action:
+  friendly_name: Bathroom control action
+sensor.bathroom_control_battery:
+  friendly_name: Bathroom control battery
+sensor.bathroom_control_linkquality:
+  friendly_name: Bathroom control link quality
+sensor.kitchen_control_action:
+  friendly_name: Kitchen control action
+sensor.kitchen_control_battery:
+  friendly_name: Kitchen control battery
+sensor.kitchen_control_linkquality:
+  friendly_name: Kitchen control link quality
+sensor.lounge_control_action:
+  friendly_name: Lounge control action
+sensor.lounge_control_battery:
+  friendly_name: Lounge control battery
+sensor.lounge_control_linkquality:
+  friendly_name: Lounge control link quality
+sensor.hallway_control_action:
+  friendly_name: Hallway control action
+sensor.hallway_control_battery:
+  friendly_name: Hallway control battery
+sensor.hallway_control_linkquality:
+  friendly_name: Hallway control link quality
+sensor.office_control_action:
+  friendly_name: Office control action
+sensor.office_control_battery:
+  friendly_name: Office control battery
+sensor.office_control_linkquality:
+  friendly_name: Office control link quality
+sensor.ensuite_control_action:
+  friendly_name: En-suite control action
+sensor.ensuite_control_battery:
+  friendly_name: En-suite control battery
+sensor.ensuite_control_linkquality:
+  friendly_name: En-suite control link quality
+sensor.entrance_contact_battery:
+  friendly_name: Entrance contact battery
+sensor.entrance_contact_linkquality:
+  friendly_name: Entrance contact link quality
+binary_sensor.entrance_contact_contact:
+  friendly_name: Entrance door
+sensor.bathroom_contact_battery:
+  friendly_name: Bathroom contact battery
+sensor.bathroom_contact_linkquality:
+  friendly_name: Bathroom contact link quality
+sensor.ensuite_contact_battery:
+  friendly_name: En-suite contact battery
+sensor.ensuite_contact_linkquality:
+  friendly_name: En-suite contact link quality
+sensor.balcony_contact_battery:
+  friendly_name: Balcony contact battery
+sensor.balcony_contact_linkquality:
+  friendly_name: Balcony contact link quality
+sensor.cupboard_contact_battery:
+  friendly_name: Cupboard contact battery
+sensor.cupboard_contact_linkquality:
+  friendly_name: Cupboard contact link quality
+sensor.office_contact_battery:
+  friendly_name: Office contact battery
+sensor.office_contact_linkquality:
+  friendly_name: Office contact link quality
+binary_sensor.bathroom_contact_contact:
+  friendly_name: Bathroom door
+binary_sensor.ensuite_contact_contact:
+  friendly_name: En-suite door
+binary_sensor.balcony_contact_contact:
+  friendly_name: Balcony door
+binary_sensor.cupboard_contact_contact:
+  friendly_name: Cupboard door
+binary_sensor.office_contact_contact:
+  friendly_name: Office door
+sensor.server_room_climate_temperature:
+  friendly_name: Server room climate temperature
+sensor.server_room_climate_humidity:
+  friendly_name: Server room climate humidity
+sensor.server_room_climate_pressure:
+  friendly_name: Server room climate pressure
+sensor.server_room_climate_battery:
+  friendly_name: Server room climate battery
+sensor.server_room_climate_linkquality:
+  friendly_name: Server room climate link quality
+sensor.bathroom_climate_temperature:
+  friendly_name: Bathroom climate temperature
+sensor.bathroom_climate_humidity:
+  friendly_name: Bathroom climate humidity
+sensor.bathroom_climate_pressure:
+  friendly_name: Bathroom climate pressure
+sensor.bathroom_climate_battery:
+  friendly_name: Bathroom climate battery
+sensor.bathroom_climate_linkquality:
+  friendly_name: Bathroom climate link quality
+sensor.bedroom_climate_temperature:
+  friendly_name: Bedroom climate temperature
+sensor.bedroom_climate_humidity:
+  friendly_name: Bedroom climate humidity
+sensor.bedroom_climate_pressure:
+  friendly_name: Bedroom climate pressure
+sensor.bedroom_climate_battery:
+  friendly_name: Bedroom climate battery
+sensor.bedroom_climate_linkquality:
+  friendly_name: Bedroom climate link quality
+sensor.office_climate_temperature:
+  friendly_name: Office climate temperature
+sensor.office_climate_humidity:
+  friendly_name: Office climate humidity
+sensor.office_climate_pressure:
+  friendly_name: Office climate pressure
+sensor.office_climate_battery:
+  friendly_name: Office climate battery
+sensor.office_climate_linkquality:
+  friendly_name: Office climate link quality
+sensor.kitchen_spot4_linkquality:
+  friendly_name: Kitchen light 5 link quality
+sensor.kitchen_spot3_linkquality:
+  friendly_name: Kitchen light 4 link quality
+sensor.kitchen_spot2_linkquality:
+  friendly_name: Kitchen light 3 link quality
+sensor.kitchen_spot1_linkquality:
+  friendly_name: Kitchen light 2 link quality
+sensor.kitchen_linkquality:
+  friendly_name: Kitchen light 1 link quality
+sensor.bathroom_spot1_linkquality:
+  friendly_name: Bathroom light 1 link quality
+sensor.bathroom_spot2_linkquality:
+  friendly_name: Bathroom light 2 link quality
+sensor.bathroom_spot3_linkquality:
+  friendly_name: Bathroom light 3 link quality
+sensor.bathroom_spot4_linkquality:
+  friendly_name: Bathroom light 4 link quality
+sensor.ensuite_spot1_linkquality:
+  friendly_name: En-suite light 1 link quality
+sensor.ensuite_spot2_linkquality:
+  friendly_name: En-suite light 2 link quality
+sensor.ensuite_spot3_linkquality:
+  friendly_name: En-suite light 3 link quality
+sensor.kitchen_sink_leak_battery:
+  friendly_name: Kitchen sink leak sensor battery
+sensor.kitchen_sink_leak_linkquality:
+  friendly_name: Kitchen sink leak sensor link quality
+binary_sensor.kitchen_sink_leak_water_leak:
+  friendly_name: Kitchen sink leak sensor
+sensor.bathroom_leak_battery:
+  friendly_name: Bathroom leak sensor battery
+sensor.bathroom_leak_linkquality:
+  friendly_name: Bathroom leak sensor link quality
+binary_sensor.bathroom_leak_water_leak:
+  friendly_name: Bathroom leak sensor
