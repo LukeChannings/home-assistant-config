@@ -1,1 +1,4 @@
 .DS_Store
+.storage
+*.log
+.HA_VERSION
