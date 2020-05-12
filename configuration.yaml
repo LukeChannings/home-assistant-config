@@ -11,6 +11,7 @@ sun:
 system_health:
 zeroconf:
 wake_on_lan:
+api:
 
 tts:
   - platform: google_translate
@@ -46,3 +47,15 @@ mqtt:
   will_message:
     topic: 'hass/status'
     payload: 'offline'
+
+homekit:
+  filter:
+    exclude_domains:
+      - device_tracker
+  entity_config:
+    media_player.chromecast:
+      feature_list:
+        - feature: on_off
+        - feature: play_pause
+        - feature: play_stop
+        - feature: toggle_mute
