@@ -73,3 +73,6 @@ prometheus:
   filter:
     include_domains:
       - sensor
+      - binary_sensor
+      - switch
+      - device_tracker
