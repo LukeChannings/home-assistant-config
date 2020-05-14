@@ -83,4 +83,4 @@ alexa:
     client_id: !env_var ALEXA_CLIENT_ID
     client_secret: !env_var ALEXA_CLIENT_SECRET
 
-group: !include group.yaml
+group: !include groups.yaml
