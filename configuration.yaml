@@ -76,3 +76,9 @@ prometheus:
       - binary_sensor
       - switch
       - device_tracker
+
+alexa:
+  smart_home:
+    endpoint: https://api.amazonalexa.com/v3/events
+    client_id: !secret ALEXA_CLIENT_ID
+    client_secret: !secret ALEXA_CLIENT_SECRET
