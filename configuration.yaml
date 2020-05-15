@@ -108,7 +108,7 @@ alexa:
       media_player.chromecast:
         display_categories: STREAMING_DEVICE
       switch.plug_1_switch:
-        display_categoreis: SMARTPLUG
+        display_categories: SMARTPLUG
       switch.plug_2_switch:
-        display_categoreis: SMARTPLUG
+        display_categories: SMARTPLUG
 light: !include lights.yaml
