@@ -78,6 +78,10 @@ sensor.lounge_control_battery:
   friendly_name: Lounge control battery
 sensor.lounge_control_linkquality:
   friendly_name: Lounge control link quality
+sensor.lounge_climate_temperature:
+  friendly_name: Lounge temperature
+sensor.lounge_climate_humidity:
+  friendly_name: Lounge humidity
 sensor.hallway_control_action:
   friendly_name: Hallway control action
 sensor.hallway_control_battery:
@@ -98,6 +102,8 @@ sensor.ensuite_control_linkquality:
   friendly_name: En-suite control link quality
 sensor.ensuite_climate_temperature:
   friendly_name: En-Suite temperature
+sensor.ensuite_climate_humidity:
+  friendly_name: En-Suite humidity
 sensor.entrance_contact_battery:
   friendly_name: Entrance contact battery
 sensor.entrance_contact_linkquality:

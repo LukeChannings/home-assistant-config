@@ -86,10 +86,17 @@ prometheus:
 alexa:
   locale: "en-GB"
   smart_home:
-    endpoint: https://api.amazonalexa.com/v3/events
+    endpoint: https://api.eu.amazonalexa.com/v3/events
     client_id: !env_var ALEXA_CLIENT_ID
     client_secret: !env_var ALEXA_CLIENT_SECRET
     filter:
+      include_domains:
+        - switch
+        - sensor
+        - binary_sensor
+        - vacuum
+        - light
+        - device_tracker
       exclude_entities: !include hidden-entities.yaml
     entity_config:
       cover.office_blinds:
@@ -98,4 +105,10 @@ alexa:
         display_categories: FAN
       switch.en_suite_fan:
         display_categories: FAN
+      media_player.chromecast:
+        display_categories: STREAMING_DEVICE
+      switch.plug_1_switch:
+        display_categoreis: SMARTPLUG
+      switch.plug_2_switch:
+        display_categoreis: SMARTPLUG
 light: !include lights.yaml
