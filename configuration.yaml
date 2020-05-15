@@ -57,6 +57,7 @@ homekit:
   filter:
     exclude_domains:
       - device_tracker
+    exclude_entities: !include hidden-entities.yaml
   entity_config:
     media_player.chromecast:
       feature_list:
@@ -88,7 +89,6 @@ alexa:
     client_id: !env_var ALEXA_CLIENT_ID
     client_secret: !env_var ALEXA_CLIENT_SECRET
     filter:
-      exclude_entities:
-        - "binary_sensor.*_update_available"
+      exclude_entities: !include hidden-entities.yaml
 
 light: !include lights.yaml
