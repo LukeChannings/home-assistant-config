@@ -29,8 +29,6 @@ homeassistant:
       hidden: true
     "*_link_quality":
       hidden: true
-    "*_link_quality":
-      hidden: true
 
 recorder:
   db_url: !env_var RECORDER_DB_URL
