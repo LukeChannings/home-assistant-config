@@ -18,6 +18,8 @@ light.office_light:
   friendly_name: Office light
 light.entrance_light:
   friendly_name: Entrance light
+light.kitchen_lights:
+  friendly_name: Kitchen lights
 light.kitchen_light:
   friendly_name: Kitchen light 1
 light.kitchen_spot4_light:
@@ -28,10 +30,14 @@ light.kitchen_spot2_light:
   friendly_name: Kitchen light 4
 light.kitchen_spot1_light:
   friendly_name: Kitchen light 5
+light.lounge_lights:
+  friendly_name: Lounge lights
 light.lounge1_light:
   friendly_name: Lounge light 1
 light.lounge2_light:
   friendly_name: Lounge light 2
+light.bathroom_lights:
+  friendly_name: Bathroom Lights
 light.bathroom_spot1_light:
   friendly_name: Bathroom light 1
 light.bathroom_spot2_light:
@@ -40,6 +46,8 @@ light.bathroom_spot3_light:
   friendly_name: Bathroom light 3
 light.bathroom_spot4_light:
   friendly_name: Bathroom light 4
+light.ensuite_lights:
+  friendly_name: Ensuite Lights
 light.ensuite_spot1_light:
   friendly_name: Ensuite light 1
 light.ensuite_spot2_light:

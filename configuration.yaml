@@ -25,9 +25,9 @@ homeassistant:
   time_zone: Europe/London
   customize: !include customize.yaml
   customize_glob:
-    "*_update_available":
+    "binary_sensor.*_update_available":
       hidden: true
-    "*_link_quality":
+    "sensor.*_linkquality":
       hidden: true
 
 recorder:
