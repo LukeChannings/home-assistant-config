@@ -24,6 +24,13 @@ homeassistant:
   unit_system: metric
   time_zone: Europe/London
   customize: !include customize.yaml
+  customize_glob:
+    "*_update_available":
+      hidden: true
+    "*_link_quality":
+      hidden: true
+    "*_link_quality":
+      hidden: true
 
 recorder:
   db_url: !env_var RECORDER_DB_URL
