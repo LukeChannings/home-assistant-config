@@ -84,11 +84,18 @@ prometheus:
       - device_tracker
 
 alexa:
+  locale: "en-GB"
   smart_home:
     endpoint: https://api.amazonalexa.com/v3/events
     client_id: !env_var ALEXA_CLIENT_ID
     client_secret: !env_var ALEXA_CLIENT_SECRET
     filter:
       exclude_entities: !include hidden-entities.yaml
-
+    entity_config:
+      cover.office_blinds:
+        display_categories: INTERIOR_BLIND
+      switch.bathroom_fan:
+        display_categories: FAN
+      switch.en_suite_fan:
+        display_categories: FAN
 light: !include lights.yaml

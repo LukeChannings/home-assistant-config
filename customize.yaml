@@ -96,6 +96,8 @@ sensor.ensuite_control_battery:
   friendly_name: En-suite control battery
 sensor.ensuite_control_linkquality:
   friendly_name: En-suite control link quality
+sensor.ensuite_climate_temperature:
+  friendly_name: En-Suite temperature
 sensor.entrance_contact_battery:
   friendly_name: Entrance contact battery
 sensor.entrance_contact_linkquality:
@@ -133,19 +135,19 @@ binary_sensor.cupboard_contact_contact:
 binary_sensor.office_contact_contact:
   friendly_name: Office door
 sensor.server_room_climate_temperature:
-  friendly_name: Server room climate temperature
+  friendly_name: Server Room temperature
 sensor.server_room_climate_humidity:
-  friendly_name: Server room climate humidity
+  friendly_name: Server Room humidity
 sensor.server_room_climate_pressure:
-  friendly_name: Server room climate pressure
+  friendly_name: Server Room climate pressure
 sensor.server_room_climate_battery:
-  friendly_name: Server room climate battery
+  friendly_name: Server Room climate battery
 sensor.server_room_climate_linkquality:
-  friendly_name: Server room climate link quality
+  friendly_name: Server Room climate link quality
 sensor.bathroom_climate_temperature:
-  friendly_name: Bathroom climate temperature
+  friendly_name: Bathroom temperature
 sensor.bathroom_climate_humidity:
-  friendly_name: Bathroom climate humidity
+  friendly_name: Bathroom humidity
 sensor.bathroom_climate_pressure:
   friendly_name: Bathroom climate pressure
 sensor.bathroom_climate_battery:
@@ -153,9 +155,9 @@ sensor.bathroom_climate_battery:
 sensor.bathroom_climate_linkquality:
   friendly_name: Bathroom climate link quality
 sensor.bedroom_climate_temperature:
-  friendly_name: Bedroom climate temperature
+  friendly_name: Bedroom temperature
 sensor.bedroom_climate_humidity:
-  friendly_name: Bedroom climate humidity
+  friendly_name: Bedroom humidity
 sensor.bedroom_climate_pressure:
   friendly_name: Bedroom climate pressure
 sensor.bedroom_climate_battery:
@@ -163,9 +165,9 @@ sensor.bedroom_climate_battery:
 sensor.bedroom_climate_linkquality:
   friendly_name: Bedroom climate link quality
 sensor.office_climate_temperature:
-  friendly_name: Office climate temperature
+  friendly_name: Office temperature
 sensor.office_climate_humidity:
-  friendly_name: Office climate humidity
+  friendly_name: Office humidity
 sensor.office_climate_pressure:
   friendly_name: Office climate pressure
 sensor.office_climate_battery:

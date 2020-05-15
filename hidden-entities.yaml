@@ -26,4 +26,4 @@
 - binary_sensor.office_blinds_update_available
 - binary_sensor.office_control_update_available
 - binary_sensor.office_update_available
-- router.router
+- binary_sensor.router_router
