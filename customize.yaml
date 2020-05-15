@@ -208,12 +208,12 @@ sensor.bathroom_leak_linkquality:
   friendly_name: Bathroom leak sensor link quality
 binary_sensor.bathroom_leak_water_leak:
   friendly_name: Bathroom leak sensor
-cover.office_blinds:
+cover.office_blinds_cover:
   friendly_name: Office blinds
   position_closed: 20
-switch.plug_1:
+switch.plug_1_switch:
   friendly_name: Litter box
-switch.plug_2:
+switch.plug_2_switch:
   friendly_name: Lounge plug
   hidden: true
 binary_sensor.router_router:
