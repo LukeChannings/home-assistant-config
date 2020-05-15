@@ -84,19 +84,12 @@ prometheus:
       - device_tracker
 
 alexa:
-  locale: "en-GB"
   smart_home:
+    locale: en-GB
     endpoint: https://api.eu.amazonalexa.com/v3/events
     client_id: !env_var ALEXA_CLIENT_ID
     client_secret: !env_var ALEXA_CLIENT_SECRET
     filter:
-      include_domains:
-        - switch
-        - sensor
-        - binary_sensor
-        - vacuum
-        - light
-        - device_tracker
       exclude_entities: !include hidden-entities.yaml
     entity_config:
       cover.office_blinds:
