@@ -22,7 +22,7 @@
 - platform: mqtt
   schema: json
   name: lounge_lights
-  command_topic: "zigbee2mqtt/kitchen_lights/set"
-  state_topic: "zigbee2mqtt/kitchen_lights"
+  command_topic: "zigbee2mqtt/lounge_lights/set"
+  state_topic: "zigbee2mqtt/lounge_lights"
   color_temp: true
   brightness: true
