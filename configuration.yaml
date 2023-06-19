@@ -13,6 +13,12 @@ zeroconf:
 wake_on_lan:
 api:
 
+http:
+  use_x_forwarded_for: true
+  trusted_proxies:
+    - 172.30.0.0/16
+    - 172.31.0.0/16
+
 tts:
   - platform: google_translate
 
@@ -22,6 +28,8 @@ homeassistant:
   longitude: !env_var HASS_LONGITUDE
   elevation: 0
   unit_system: metric
+  currency: GBP
+  country: GB
   time_zone: Europe/London
   customize: !include customize.yaml
   customize_glob:
@@ -29,29 +37,6 @@ homeassistant:
       hidden: true
     "sensor.*_linkquality":
       hidden: true
-
-recorder:
-  db_url: !env_var RECORDER_DB_URL
-  auto_purge: false
-  purge_keep_days: 365
-  exclude:
-    domains:
-      - automation
-      - updater
-
-mqtt:
-  broker: mosquitto.mosquitto.svc.cluster.local
-  discovery: true
-  protocol: "3.1.1"
-  port: 1883
-  username: !env_var MQTT_USERNAME
-  password: !env_var MQTT_PASSWORD
-  birth_message:
-    topic: 'hass/status'
-    payload: 'online'
-  will_message:
-    topic: 'hass/status'
-    payload: 'offline'
 
 homekit:
   filter:
@@ -65,23 +50,6 @@ homekit:
         - feature: play_pause
         - feature: play_stop
         - feature: toggle_mute
-
-prometheus:
-  component_config_glob:
-    sensor.*_hum:
-      override_metric: humidity_percent
-    sensor.*_temp:
-      override_metric: temperature_c
-    sensor.temperature*:
-      override_metric: temperature_c
-    sensor.*_bat:
-      override_metric: battery_percent
-  filter:
-    include_domains:
-      - sensor
-      - binary_sensor
-      - switch
-      - device_tracker
 
 alexa:
   smart_home:
@@ -104,4 +72,3 @@ alexa:
         display_categories: SMARTPLUG
       switch.plug_2_switch:
         display_categories: SMARTPLUG
-light: !include lights.yaml
