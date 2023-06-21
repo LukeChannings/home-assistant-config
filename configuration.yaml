@@ -38,18 +38,23 @@ homeassistant:
     "sensor.*_linkquality":
       hidden: true
 
+template:
+  - sensor:
+      - name: "Average temperature"
+        unit_of_measurement: "°C"
+        state: >
+          {% set bedroom = states('sensor.bedroom_climate_temperature') | float %}
+          {% set lounge = states('sensor.lounge_climate_temperature') | float %}
+          {% set office = states('sensor.office_climate_temperature') | float %}
+          {% set bathroom = states('sensor.bathroom_climate_temperature') | float %}
+
+          {{ ((bedroom + lounge + office + bathroom) / 4) | round(1, default=0) }}
+
 homekit:
   filter:
     exclude_domains:
       - device_tracker
     exclude_entities: !include hidden-entities.yaml
-  entity_config:
-    media_player.chromecast:
-      feature_list:
-        - feature: on_off
-        - feature: play_pause
-        - feature: play_stop
-        - feature: toggle_mute
 
 alexa:
   smart_home:
